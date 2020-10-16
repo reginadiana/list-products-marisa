@@ -1,9 +1,6 @@
 import React from "react";
+import { Title } from "./style";
 
-const Header = () => (
-  <p>
-    <strong>FIND</strong>products
-  </p>
-);
+const Header = () => <Title>MARISA</Title>;
 
 export default Header;

@@ -1,11 +1,5 @@
 import React from "react";
 
-const Footer = () => (
-  <>
-    <hr />
-    <p>Bootcamp React WoMakersCode</p>
-    <p>Diana Regina</p>
-  </>
-);
+const Footer = () => <p>marisa</p>;
 
 export default Footer;

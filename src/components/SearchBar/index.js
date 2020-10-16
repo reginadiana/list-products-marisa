@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import { Input } from "./style";
 
-const SearchBar = () => (
-  <form>
-    <input className="search" type="text" placeholder="Search..." />
-    <p>
-      <input className="checkbox" type="checkbox" /> Only show products in stock
-    </p>
-  </form>
-);
+const SearchBar = ({ getInput }) => {
+  const [input, setInput] = useState("");
+
+  const handleOnChange = (value) => {
+    setInput(value);
+    getInput(value);
+  };
+
+  return (
+    <Input
+      type="text"
+      placeholder="O que você procura?"
+      value={input}
+      onChange={(event) => handleOnChange(event.target.value)}
+    />
+  );
+};
 
 export default SearchBar;
