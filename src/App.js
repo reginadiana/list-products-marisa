@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import products from "./services/moc";
-import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import CheckStocked from "./components/CheckStocked";
 import Products from "./components/Products";
@@ -18,8 +17,13 @@ function App() {
   return (
     <Context.Provider value={{ inputSearchBar }}>
       <Styled.Container>
-        <Header />
-        <SearchBar getInput={getInput} />
+        <Styled.Header>
+          <h1>marisa</h1>
+          <SearchBar getInput={getInput} />
+          <Styled.SubHeader>
+            <h2>CONFIRA NOSSA COLEÇÃO</h2>
+          </Styled.SubHeader>
+        </Styled.Header>
         <CheckStocked
           showStockedProducts={() => setShowStocked(!showStocked)}
         />

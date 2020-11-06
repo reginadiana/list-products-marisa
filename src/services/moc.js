@@ -47,6 +47,94 @@ const products = [
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/h6a/h9b/12271791636510/VIRT-VEST-FEM-AZL-BIOT-25918-AZL-38-10043748181-C1.jpg",
   },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Manga Longa Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h70/heb/11443513589790/TOP-ML-COM-APLIQUES-OFW-P-10041422199-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Ilhós Manga Longa Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h8e/hc6/11612009431070/VIRT-BLUSA-FEM-MARINHO-MARI-8937-AZM-P-10042508809-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Tachas Manga Longa Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h4f/h6a/11597675692062/Blusa-Feminina-Tachas-Manga-Longa-Marisa-10041436707-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Cropped Feminina Canelada Zíper Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h63/h87/12280515854366/BLUSA-SM-ZIPER-PTO-P-10042139614-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Estampa Caveira Tachas Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/hde/hf1/11438741913630/BLUSA-MC-CAVEIRA-TACHAS-PTO-P-10040545318-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Fivelas Alças Finas Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h85/h3a/12264271478814/BL-SM-PLANO-LISA-COM-ARGOLA-VDE-38-10041735404-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Ciganinha Feminina Lastex Manga Curta",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h7c/h03/12284906078238/Blusa-Feminina-Ciganinha-Lastex-Manga-Curta-10043677818-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Plus Size Ciganinha Feminina Listrada Marisa",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h26/h31/12223070175262/CIGANINHA-LISTRA-PRATA-BRILHO-OFW-48-10043772025-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Estampa Mickey Manga Curta Disney",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h91/h7c/11637039955998/BLUSA-MC-MICKEY-ESTOURADO-PTO-P-10040484181-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Plus Size Feminina Estampa Frontal Manga Curta",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/hfe/h9c/12284913647646/Blusa-Plus-Size-Feminina-Estampa-Frontal-Manga-Curta-10043744619-C1.jpg",
+  },
+  {
+    category: "Vestidos",
+    price: "R$ 199,99",
+    stocked: true,
+    name: "Blusa Feminina Linho Alças Finas ",
+    img:
+      "https://images2.marisa.com.br/medias/sys_master/images/images/h63/h0f/12266656989214/Blusa-Feminina-Linho-Alcas-Finas-Danyblu-10043521050-C1.jpg",
+  },
 ];
 
 export default products;

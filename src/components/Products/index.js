@@ -1,37 +1,39 @@
-import React, { useContext } from "react";
-import Category from "./Category";
+import React, { useState } from "react";
 import Product from "./Product";
-import { Context } from "../../services/context";
 import { filterByStocked, filterBySearch } from "../../services/utils";
+import * as Styled from "./style";
 
 const Products = ({ products, showStocked }) => {
-  const { inputSearchBar } = useContext(Context);
-
   if (showStocked) products = filterByStocked(products);
-  if (inputSearchBar) products = filterBySearch(products, inputSearchBar);
+  products = filterBySearch(products);
+  const [amoutViewProduct, setAmoutViewProduct] = useState(5);
 
-  let listProducts = [];
-  let lastCategory = null;
+  let lenghtProductsDisplay = 0;
 
-  const addCategory = (category) =>
-    listProducts.push(<Category category={category} key={category} />);
+  const renderProduct = (product) => (
+    <Product product={product} key={product.name} showStocked={showStocked} />
+  );
 
-  const addProduct = (product) =>
-    listProducts.push(
-      <Product product={product} key={product.name} showStocked={showStocked} />
-    );
+  const renderProducts = () => {
+    return products.map((product) => {
+      lenghtProductsDisplay += 1;
+      if (lenghtProductsDisplay < amoutViewProduct)
+        return renderProduct(product);
 
-  products.map((product) => {
-    if (product.category !== lastCategory) addCategory(product.category);
+      return null;
+    });
+  };
 
-    addProduct(product);
-
-    lastCategory = product.category;
-
-    return null;
-  });
-
-  return <div>{listProducts}</div>;
+  return (
+    <>
+      <Styled.Products>{renderProducts()}</Styled.Products>
+      {amoutViewProduct < products.length && (
+        <button onClick={() => setAmoutViewProduct(amoutViewProduct + 5)}>
+          Ver mais
+        </button>
+      )}
+    </>
+  );
 };
 
 export default Products;
