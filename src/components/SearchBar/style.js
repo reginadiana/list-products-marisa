@@ -8,4 +8,9 @@ export const Input = styled.input`
   outline: 0;
   padding-left: 10px;
   width: 90%;
+
+  @media screen and (min-width: 700px) {
+    width: 30%;
+    margin: 0px 20px;
+  }
 `;

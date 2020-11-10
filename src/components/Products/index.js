@@ -6,7 +6,7 @@ import * as Styled from "./style";
 const Products = ({ products, showStocked }) => {
   if (showStocked) products = filterByStocked(products);
   products = filterBySearch(products);
-  const [amoutViewProduct, setAmoutViewProduct] = useState(5);
+  const [amoutViewProduct, setAmoutViewProduct] = useState(products.length);
 
   let lenghtProductsDisplay = 0;
 

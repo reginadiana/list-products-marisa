@@ -1,14 +1,15 @@
 import React from "react";
+import * as Styled from "./style";
 
 const CheckStocked = ({ showStockedProducts }) => {
   return (
-    <form>
+    <Styled.Form>
       <inpu type="text" placeholder="Search..." />
       <p>
         <input type="checkbox" onChange={showStockedProducts} /> Ver somente
         produtos disponiveis
       </p>
-    </form>
+    </Styled.Form>
   );
 };
 
