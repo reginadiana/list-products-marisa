@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import theme from "../../../styles/theme";
 
-export const Product = styled.div``;
+export const Product = styled.div`
+  margin: auto;
+`;
 
 export const NameProduct = styled.div`
   display: flex;
@@ -25,5 +27,5 @@ export const Unavailable = styled.p`
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 300px;
 `;

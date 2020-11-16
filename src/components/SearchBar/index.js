@@ -1,22 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { Input } from "./style";
+import { padronizeString } from "../../services/utils";
 
-const SearchBar = ({ getInput }) => {
-  const [input, setInput] = useState("");
-
-  const handleOnChange = (value) => {
-    setInput(value);
-    getInput(value);
-  };
-
-  return (
-    <Input
-      type="text"
-      placeholder="O que você procura?"
-      value={input}
-      onChange={(event) => handleOnChange(event.target.value)}
-    />
-  );
-};
-
+const SearchBar = ({ getInput }) => (
+  <Input
+    type="text"
+    placeholder="O que você procura?"
+    onChange={(event) => getInput(padronizeString(event.target.value))}
+  />
+);
 export default SearchBar;

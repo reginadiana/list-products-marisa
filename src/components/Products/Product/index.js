@@ -1,44 +1,39 @@
-import React, { useContext } from "react";
+import React from "react";
 import * as Styled from "./style";
+import { namesOfProducts } from "../../../services/utils";
 import { Context } from "../../../services/context";
-import { removeSpecialCaracters } from "../../../services/utils";
+import { useContext } from "react";
 
 const Product = ({ product }) => {
-  const { inputSearchBar } = useContext(Context);
   const isStocked = product.stocked;
 
-  const productName = removeSpecialCaracters(product.name).toUpperCase();
-  const arrayName = productName.split(" ");
+  let { inputSearchBar } = useContext(Context);
 
-  const showName = product.name.split(" ");
+  const { names_searched, names_unsearched } = namesOfProducts(
+    product.name,
+    inputSearchBar
+  );
 
-  const renderNameProduct = () => {
-    if (!inputSearchBar) {
-      return <Styled.Name alertSearch={false}>{product.name}</Styled.Name>;
-    }
-
-    return arrayName.map((name, index) => {
-      const includeSearch = name.includes(inputSearchBar.toUpperCase());
-      if (includeSearch) {
-        return (
-          <Styled.Name key={index} alertSearch={true}>
-            {showName[index]}&#160;
-          </Styled.Name>
-        );
-      } else {
-        return (
-          <Styled.Name key={index} alertSearch={false}>
-            {showName[index]}&#160;
-          </Styled.Name>
-        );
-      }
-    });
-  };
+  const renderNames = (names, { isAlert }) =>
+    names.map((name, index) => (
+      <Styled.Name key={index} alertSearch={isAlert}>
+        {name}&#160;
+      </Styled.Name>
+    ));
 
   return isStocked ? (
     <Styled.Product>
       <Styled.Img src={product.img} alt={product.name} />
-      <Styled.NameProduct>{renderNameProduct()}</Styled.NameProduct>
+      {
+        <Styled.NameProduct>
+          {renderNames(names_searched, {
+            isAlert: true,
+          })}
+          {renderNames(names_unsearched, {
+            isAlert: false,
+          })}
+        </Styled.NameProduct>
+      }
       <Styled.Price isStocked={isStocked}>{product.price}</Styled.Price>
     </Styled.Product>
   ) : (

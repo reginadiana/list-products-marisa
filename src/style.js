@@ -4,8 +4,7 @@ import theme from "./styles/theme";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 30px;
 `;
 
 export const Header = styled.div`
@@ -19,6 +18,10 @@ export const Header = styled.div`
   h1 {
     color: ${theme.colors.white};
   }
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+  }
 `;
 
 export const SubHeader = styled.div`
@@ -27,4 +30,10 @@ export const SubHeader = styled.div`
   width: 100%;
   background-color: ${theme.colors.black};
   color: ${theme.colors.white};
+`;
+
+export const ProductsContainer = styled.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
 `;
