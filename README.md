@@ -4,9 +4,7 @@
 
 In this initial application with React, the goal was develop a list of products with seachbox and checkbox. It is possible to see the responsive application in desktop and mobile version alow:
 
-<img src="https://user-images.githubusercontent.com/46378210/99451407-ebef4f00-2900-11eb-8a82-f44db4c3776d.jpg" width="500">
-<img src="https://user-images.githubusercontent.com/46378210/99451417-ef82d600-2900-11eb-9bb8-03f2dca44304.jpg" width="400">
-<img src="https://user-images.githubusercontent.com/46378210/99451425-f14c9980-2900-11eb-865c-f5a83269836d.jpg" width="300">
+![Screenshot_2020-11-17 Figma](https://user-images.githubusercontent.com/46378210/99452232-0e359c80-2902-11eb-8f94-47ce7576f225.png)
 
 <h2>What resources was used:</h2>
 
