@@ -7,6 +7,7 @@ export const Product = styled.div`
 
 export const NameProduct = styled.div`
   display: flex;
+  width: 300px;
 `;
 
 export const Name = styled.p`
@@ -14,6 +15,7 @@ export const Name = styled.p`
   line-height: 25px;
   margin: 5px 0 10px;
   font-size: ${theme.fontSize.regular};
+  word-break: normal;
 `;
 
 export const Price = styled.p`

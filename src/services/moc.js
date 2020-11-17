@@ -11,7 +11,7 @@ const products = [
     category: "Blusas",
     price: "R$ 9,99",
     stocked: true,
-    name: "Suéter Feminino Tricô Pelúcia Manga Longa",
+    name: "Suéter Feminino Tricô Pelúcia Manga",
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/h78/hf6/11314357239838/SWEATER-CANELADO-GOLA-ALTA-04156-VME-P-10037849795-C1.jpg",
   },
@@ -19,7 +19,7 @@ const products = [
     category: "Camisetas",
     price: "R$ 29,99",
     stocked: true,
-    name: "Camisa Cropped Feminina Listrada Manga Curta",
+    name: "Camisa Cropped Feminina Listrada Manga",
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/h7a/h7e/12272667295774/CAMISA-MC-COM-NO-OFW-38-10040534459-C1.jpg",
   },
@@ -107,23 +107,23 @@ const products = [
     category: "Vestidos",
     price: "R$ 199,99",
     stocked: true,
-    name: "Blusa Plus Size Ciganinha Feminina Listrada Marisa",
+    name: "Blusa Plus Size Ciganinha Feminina Listrada",
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/h26/h31/12223070175262/CIGANINHA-LISTRA-PRATA-BRILHO-OFW-48-10043772025-C1.jpg",
   },
   {
     category: "Vestidos",
     price: "R$ 199,99",
-    stocked: true,
-    name: "Blusa Feminina Estampa Mickey Manga Curta Disney",
+    stocked: false,
+    name: "Blusa Feminina Estampa Mickey Manga Curta",
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/h91/h7c/11637039955998/BLUSA-MC-MICKEY-ESTOURADO-PTO-P-10040484181-C1.jpg",
   },
   {
     category: "Vestidos",
     price: "R$ 199,99",
-    stocked: true,
-    name: "Blusa Plus Size Feminina Estampa Frontal Manga Curta",
+    stocked: false,
+    name: "Blusa Plus Size Feminina Estampa Frontal",
     img:
       "https://images2.marisa.com.br/medias/sys_master/images/images/hfe/h9c/12284913647646/Blusa-Plus-Size-Feminina-Estampa-Frontal-Manga-Curta-10043744619-C1.jpg",
   },
