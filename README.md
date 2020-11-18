@@ -12,6 +12,10 @@ De forma resumida, essa aplicação é capaz de:
 
 ![Screenshot_2020-11-17 Figma](https://user-images.githubusercontent.com/46378210/99452232-0e359c80-2902-11eb-8f94-47ce7576f225.png)
 
+<h2>Deploy da Aplicação</h2>
+
+> https://marisa-products.netlify.app/
+
 <h2>Recursos:</h2>
 
 :books: [React](https://reactjs.org/) para consrtuir a interface. 
