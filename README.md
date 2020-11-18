@@ -8,21 +8,23 @@ Esta é uma aplicação bem simples que usa um mock com as informações dos pro
 
 <h2>Recursos:</h2>
 
-- [React](https://reactjs.org/) para consrtuir a interface. 
-- [Mock](https://sinonjs.org/releases/latest/mocks/) para guardar as informações dos produtos.
-- [Yarn](https://classic.yarnpkg.com/en/) para instalar o pacote de dependencias. 
+:books: [React](https://reactjs.org/) para consrtuir a interface. 
+
+:books: [Mock](https://sinonjs.org/releases/latest/mocks/) para guardar as informações dos produtos.
+
+:books: [Yarn](https://classic.yarnpkg.com/en/) para instalar o pacote de dependencias. 
 
 <h2>Como rodar a aplicação:</h2>
 
 Clone o repositório:
 
-```
+```bash
 git clone https://github.com/reginadiana/lista-com-filtro-marisa
 ```
 
 Em seguida, entre na pasta e execute a aplicação:
 
-```
+```bash
 $ cd src && yarn start
 ```
 
