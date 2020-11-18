@@ -1,46 +1,29 @@
-<h1 align="center"> Marisa | List of Products </h1>
+<h1 align="center"> Marisa | Lista de Produtos com Filtro </h1>
 
-<h2>What is App:</h2>
+<h2>Descrição:</h2>
 
-In this initial application with React, the goal was develop a list of products with seachbox and checkbox. It is possible to see the responsive application in desktop and mobile version alow:
+Esta é uma aplicação bem simples que usa um mock com as informações dos produtos e renderiza-os na tela. Ela também é capaz de filtrar os produtos pelo nome e da destaque aos termos encontrados. 
 
 ![Screenshot_2020-11-17 Figma](https://user-images.githubusercontent.com/46378210/99452232-0e359c80-2902-11eb-8f94-47ce7576f225.png)
 
-<h2>What resources was used:</h2>
+<h2>Recursos:</h2>
 
-- [React](https://reactjs.org/) for to build a interface 
-- [Mock](https://sinonjs.org/releases/latest/mocks/) for request informations about the products 
-- [Yarn](https://classic.yarnpkg.com/en/) for install dependencies 
+- [React](https://reactjs.org/) para consrtuir a interface. 
+- [Mock](https://sinonjs.org/releases/latest/mocks/) para guardar as informações dos produtos.
+- [Yarn](https://classic.yarnpkg.com/en/) para instalar o pacote de dependencias. 
 
-<h2>How to run this app:</h2>
+<h2>Como rodar a aplicação:</h2>
 
-Clone this project:
-
-```
-git clone "https://github.com/Diana-ops/womakerscodeReact/tree/master/web"
-```
-
-> It is necessary to have the files of directory **node_modules** (I don't put in here because are many files) :grimacing:
-
-You can to have this dependencies creating a new project with React:
+Clone o repositório:
 
 ```
-$ yarn create react-app <name_directory>
+git clone https://github.com/reginadiana/lista-com-filtro-marisa
 ```
 
-So, move **node_modules** to "web/" directory
-
-With the dependencies create, just run application with:
+Em seguida, entre na pasta e execute a aplicação:
 
 ```
-$ cd src
-$ yarn start
+$ cd src && yarn start
 ```
 
-Is possible to see the response of local request acessing http://localhost:3000/
-
-<hr>
-
-If you can and wanted give me some **feedback** about my project or README.md, send me a **Pull Requests** or **Issues**. Advices are many welcome and constructive for me :smile:
-
-Give me a **Star** if this project help or inspired you somehow :star:
+Pronto, agora só ver a aplicação na rota http://localhost:3000/
