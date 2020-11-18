@@ -2,7 +2,13 @@
 
 <h2>Descrição:</h2>
 
-Esta é uma aplicação bem simples que usa um mock com as informações dos produtos e renderiza-os na tela. Ela também é capaz de filtrar os produtos pelo nome e da destaque aos termos encontrados. 
+De forma resumida, essa aplicação é capaz de:
+
+:heavy_check_mark: Mostrar os produtos na tela.
+
+:heavy_check_mark: Filtrar os produtos a partir do nome pesquisado pelo usuário no campo de busca.
+
+:heavy_check_mark: Filtrar os produtos a partir do estoque.
 
 ![Screenshot_2020-11-17 Figma](https://user-images.githubusercontent.com/46378210/99452232-0e359c80-2902-11eb-8f94-47ce7576f225.png)
 
