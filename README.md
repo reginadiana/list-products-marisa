@@ -16,6 +16,8 @@ De forma resumida, essa aplicação é capaz de:
 
 > https://marisa-products.netlify.app/
 
+![image](https://user-images.githubusercontent.com/46378210/144768392-82135843-9289-473c-a00d-60945c1bdbb1.png)
+
 <h2>Recursos:</h2>
 
 :books: [React](https://reactjs.org/) para consrtuir a interface. 
