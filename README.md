@@ -1,43 +1,70 @@
-<h1 align="center"> Marisa | Lista de Produtos com Filtro </h1>
+# Getting Started with Create React App
 
-<h2>Descrição:</h2>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-De forma resumida, essa aplicação é capaz de:
+## Available Scripts
 
-:heavy_check_mark: Mostrar os produtos na tela.
+In the project directory, you can run:
 
-:heavy_check_mark: Filtrar os produtos a partir do nome pesquisado pelo usuário no campo de busca.
+### `npm start`
 
-:heavy_check_mark: Filtrar os produtos a partir do estoque.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![Screenshot_2020-11-17 Figma](https://user-images.githubusercontent.com/46378210/99452232-0e359c80-2902-11eb-8f94-47ce7576f225.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<h2>Deploy da Aplicação</h2>
+### `npm test`
 
-> https://marisa-products.netlify.app/
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![image](https://user-images.githubusercontent.com/46378210/144768392-82135843-9289-473c-a00d-60945c1bdbb1.png)
+### `npm run build`
 
-<h2>Recursos:</h2>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-:books: [React](https://reactjs.org/) para consrtuir a interface. 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-:books: [Mock](https://sinonjs.org/releases/latest/mocks/) para guardar as informações dos produtos.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-:books: [Yarn](https://classic.yarnpkg.com/en/) para instalar o pacote de dependencias. 
+### `npm run eject`
 
-<h2>Como rodar a aplicação:</h2>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Clone o repositório:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-git clone https://github.com/reginadiana/lista-com-filtro-marisa
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Em seguida, entre na pasta e execute a aplicação:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-$ cd src && yarn start
-```
+## Learn More
 
-Pronto, agora só ver a aplicação na rota http://localhost:3000/
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
