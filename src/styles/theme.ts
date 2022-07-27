@@ -8,7 +8,6 @@ const theme = {
     violet: "#D63695",
     white: "#FFF",
   },
-
   fontSize: {
     regular: "14px",
   },

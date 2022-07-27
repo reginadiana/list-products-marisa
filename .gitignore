@@ -1,1 +1,5 @@
+# Dependences
 node_modules/
+
+# Output folder transpiler typescript
+output/

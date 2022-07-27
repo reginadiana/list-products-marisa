@@ -1,10 +1,11 @@
 import React from "react";
-import { Input } from "./style";
+import { Input } from "./SearchBar.style";
 
 const SearchBar = () => (
   <Input
-    type="text"
+    type="search"
     placeholder="O que você procura?"
   />
 );
+
 export default SearchBar;
