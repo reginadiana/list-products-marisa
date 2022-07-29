@@ -3,3 +3,6 @@ node_modules/
 
 # Output folder transpiler typescript
 output/
+
+# Output build to production
+build/
