@@ -1,12 +1,19 @@
 const theme = {
-  colors: {
-    pink: "#EC008C",
+  color: {
+    pink: {
+      hollywoodCerise: '#ec008c'
+    },
     lightPink: "#FFC0CB",
     black: "#101010",
-    gray: "#898989",
+    gray: {
+      charcoal: '#a7a9ac'
+    },
     red: "#FF0000",
     violet: "#D63695",
-    white: "#FFF",
+    white: {
+      default: '#fff',
+      whiteSmoke: '#fafafa'
+    },
   },
   fontSize: {
     regular: "14px",

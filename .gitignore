@@ -6,3 +6,5 @@ output/
 
 # Output build to production
 build/
+
+dist/

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import theme from "../../styles/theme";
 
 export const Header = styled.header`
-  background-color: ${theme.colors.pink};
+  background-color: ${theme.color.pink.hollywoodCerise};
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,7 +10,7 @@ export const Header = styled.header`
   align-items: center;
 
   h1 {
-    color: ${theme.colors.white};
+    color: ${theme.color.white.default};
   }
   
   @media screen and (min-width: 700px) {

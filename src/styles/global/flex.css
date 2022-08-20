@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .md-flex {
+    display: flex;
+  }
+}
