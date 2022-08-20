@@ -1,8 +1,8 @@
 import React from "react";
 import * as Styled from "./Footer.style";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faComments } from "@fortawesome/free-regular-svg-icons";
-// import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComments } from "@fortawesome/free-regular-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,11 +10,11 @@ const Footer = () => {
       <Styled.Article className="flex-column">
         <h3 className="article__title">Não encontrou o que estava procurando?</h3>
         <div className="flex article__item">
-          {/* <FontAwesomeIcon icon={faComments} />{" "} */}
+          <FontAwesomeIcon icon={faComments} />
           <a href="#!">Podemos ajudar? Fale conosco</a>
         </div>
         <div className="flex article__item">
-          {/* <FontAwesomeIcon icon={faLocationDot} />{" "} */}
+          <FontAwesomeIcon icon={faLocationDot} />
           <a href="#!">Encontre as lojas mais próximas</a>
         </div>
       </Styled.Article>
