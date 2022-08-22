@@ -1,5 +1,5 @@
 ## Descrição do projeto
-Ecomerce do tipo Marisa. Apresentar uma lista de items e construir todo o fluxo para a escolher, pagar e finalizar compras. Também apresentar layout baseado no site original, mas realizando melhorias de UI. As histórias para construção desse projeto podem ser vistas neste [_board_](https://github.com/users/reginadiana/projects/4)
+Ecomerce do tipo Marisa. O objetivo principal é apresentar uma lista de items e construir todo o fluxo para a escolher, pagar e finalizar compras. Também apresentar layout baseado no site original, mas realizando melhorias de UI. As histórias para construção desse projeto podem ser vistas neste [_board_](https://github.com/users/reginadiana/projects/4)
 
 ## Executando a aplicação
 
