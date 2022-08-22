@@ -1,26 +1,20 @@
 ## Descrição do projeto
-Ecomerce de roupas do tipo Marisa
+Ecomerce do tipo Marisa. Apresentar uma lista de items e construir todo o fluxo para a escolher, pagar e finalizar compras. Também apresentar layout baseado no site original, mas realizando melhorias de UI. As histórias para construção desse projeto podem ser vistas neste [_board_](https://github.com/users/reginadiana/projects/4)
 
 ## Executando a aplicação
 
 ### Requisitos
 
-- docker
+:books: [Docker](https://docs.docker.com/desktop/install/linux-install/) 
+
+:books: [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Construindo e executando ambiente
 
-docker-compose build
+```bash
+$ docker-compose build
 
-docker-compose run --rm --service-ports app bash
+$ docker-compose run --rm --service-ports app bash
 
-yarn start
-
-## Tarefas
-
-- Construir primeiro menu
-
-- Construir segundo menu
-
-- Construir rodapé
-
-- Construir carrossel
+$ yarn start
+```
