@@ -18,3 +18,5 @@ $ docker-compose run --rm --service-ports app bash
 
 $ yarn start
 ```
+
+Acesse a aplicação em [localhost:3001](http://localhost:3001/)
